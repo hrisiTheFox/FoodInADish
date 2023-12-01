@@ -10,4 +10,12 @@ public class Vegetable extends Food{
         super(name, kg);
         this.isFresh = isFresh;
     }
+
+    private boolean isFresh(){
+        return isFresh;
+    }
+
+    public void setFresh(boolean fresh) {
+        isFresh = fresh;
+    }
 }
